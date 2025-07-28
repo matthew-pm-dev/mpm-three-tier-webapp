@@ -1,0 +1,20 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.tfstate.*.backup
+terraform.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+*.lock.hcl
+
+# Crash log
+crash.log
+
+# Local .terraform directories
+**/.terraform/*
+
+# Dev environment files
+.devcontainer
